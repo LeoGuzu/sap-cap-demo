@@ -1,0 +1,14 @@
+GET http://localhost:4004/odata/v4/employee/Employees
+###
+
+POST http://localhost:4004/odata/v4/employee/Employees
+Content-Type: application/json
+
+{
+    "ID": 4,
+    "firstName": "Georgios",
+    "lastName": "Example",
+    "email": "georgios@example.com",
+    "department": "IT",
+    "hireDate": "2026-01-20"
+}
